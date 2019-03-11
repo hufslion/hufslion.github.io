@@ -444,7 +444,7 @@ body태그 안에 다음 코드를 넣어줍니다.<br>
   aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">
@@ -459,12 +459,12 @@ body태그 안에 다음 코드를 넣어줍니다.<br>
 	aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	<a class="dropdown-item" href="#">Action</a>
 	<a class="dropdown-item" href="#">Another action</a>
 	<div class="dropdown-divider"></div>
 	<a class="dropdown-item" href="#">Something else here</a>
-      </div>
+    </div>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" 
@@ -477,7 +477,7 @@ body태그 안에 다음 코드를 넣어줍니다.<br>
       <button class="btn btn-outline-success my-2 my-sm-0" 
 	     type="submit">Search</button>
     </form>
-  </div>
+</div>
 </nav>
 {% endhighlight %}
 
@@ -564,7 +564,7 @@ card-link부분에 링크를 걸 수 있습니다.
   <img src="..." class="card-img-top" alt="...">
   <div class="card-body">
    <p class="card-text">Some quick example text to build on the
-	card title and make up the bulk of the card's content.</p>
+   card title and make up the bulk of the card's content.</p>
   </div>
 </div>
 {% endhighlight %}
@@ -609,7 +609,8 @@ One of three colums부분에
         <img src="image1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
         <p class="card-text">Some quick example text to build on 
-	the card title and make up the bulk of the card's content.</p>
+	the card title and make up the bulk of the card's content.
+	</p>
         </div>
         </div>
         </div>
@@ -617,7 +618,8 @@ One of three colums부분에
         <div class="card" style="width: 18rem;">
         <img src="image1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card 
+        <p class="card-text">
+	Some quick example text to build on the card 
 	title and make up the bulk of the card's content.</p>
         </div>
         </div>
@@ -709,8 +711,8 @@ bootstrap페이지에서 container검색(https://getbootstrap.com/docs/4.3/layou
 {% highlight html %}
 $ git init
 $ git add .
-$ git commit -m 'message'
-$ git remote add origin "깃헙주소"
+$ git commit -m "message"
+$ git remote add origin "<깃헙주소>"
 $ git push -u origin master
 {% endhighlight %}
 
@@ -723,4 +725,3 @@ git 명령어에 대한 설명은 세션 ppt참고!
 # PPT참고
 
 [세션3.pdf](https://github.com/hyojin17/session3_folder/files/2951548/3.pdf)
-
