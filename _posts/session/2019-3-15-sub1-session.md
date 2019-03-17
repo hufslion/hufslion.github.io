@@ -4,9 +4,6 @@ title: 예비 세션 1. 쿠키커터 # 글 제목으로 수정
 category: session # 본인에게 맞는 카테고리명을 적으세요
 ---
 
-Cookiecutter
-===========
-
 세션 sub - prod. 장윤서
 
 ### cookiecutter 란?
@@ -139,4 +136,4 @@ python manage.py runserver
 {% endhighlight %}
 
 ## PostgreSQL 설치 ppt
-[PostgreSQL설치 ppt 다운]<https://github.com/hufslion/for-pic-url/files/2970737/PostgreSQLinstall.pdf>
+[PostgreSQL설치 ppt 다운](https://github.com/hufslion/for-pic-url/files/2970737/PostgreSQLinstall.pdf)
