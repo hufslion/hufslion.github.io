@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 인공지능으로 작곡하기.
-category: test
+category: session
 ---
 예비 세션 2 - prod. 승윤
 
