@@ -96,10 +96,53 @@ myCar1 = Car()
 myCar2 = Car()
 myCar1.speedUp(30)
 print(myCar1.speed)
+
 {% endhighlight %}
 
 * 이 외에도 __init__을 이용한 생성자, 정적 메소드 등이 사용된다.
 ![class-detail](https://user-images.githubusercontent.com/37901314/54296382-2c5cdc80-45f8-11e9-92d4-e4bf4f414508.PNG)
+
+
+### Example
+
+* 로또생성 알고리즘을 위한 random모듈과 함수들
+
+{% highlight html %}
+
+#난수생성을 위한 random 모듈 불러오기
+
+import random
+
+#[0,1)(0이상 1미만)의 난수 생성
+
+random.random()
+
+# [1,11)(1이상 11미만)의 리스트 생성(파이썬 내장함수)
+
+range(1,11)
+
+#[1,11)(1이상 11미만)의 난수 생성
+
+num = random.randrange(1,11)
+
+# [1,11)(1이상 11미만)의 수 중 홀수(2씩) 생성
+
+odd = random.randrange(1,11,2)
+
+#순서형 자료(sequence)를 섞어주는 함수
+
+seq = range(1,11)
+random.suffle(seq)
+
+#랜덤으로 하나의 원소를 뽑아주는 함수
+
+random.choice(seq)
+
+#랜덤으로 중복 없이 원하는 수의 sample들을 리스트로 뽑아주는 함수
+
+random.sample(seq, 3)
+
+{% endhighlight %}
 
 
 ---
