@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: 2. CSS 기초
-category: session
+category: 7th
 ---
 
 세션 2 - prod. 구자룡
