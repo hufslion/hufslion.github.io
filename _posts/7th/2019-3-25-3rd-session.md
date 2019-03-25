@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: 3. 파이썬과 부트스트랩 + Git
-category: session
+category: 7
 ---
 세션 3 - prod. 최효진
 
