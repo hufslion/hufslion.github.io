@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 05. HTTP Methods / Wordcounter / Parsing
-category: Session
+category: session
 ---
 세션 5 - prod. 인건
 
