@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4. 파이썬문법, MTV패턴, 부트스트랩템플릿
-category: session
+category: 7th
 ---
 세션 4 - prod. 김은진
 
