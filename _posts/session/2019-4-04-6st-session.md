@@ -216,8 +216,7 @@ urlpatterns = [
      path('admin/', admin.site.urls),
      path('', blogapp.views.home, name="home"),
      path('blog/<int:blog_id>/', blogapp.views.detail, name='detail'),
-     
-	]
+     ]
 {% endhighlight %}
 여기서 저 <int:blog_id> 는 각 게시물의 id(게시물의 고유 번호 값)이 담기는 곳으로 path-converter라고도 합니다
 이 path-converter 주로 url를 통해 views.py 의 함수에 특정 값이나 데이터를 넘겨줄때 사용합니다 
