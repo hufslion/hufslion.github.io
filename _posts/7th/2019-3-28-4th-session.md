@@ -176,8 +176,7 @@ ___
 * urls.py에 views.py와 home.html을 연결해주는 설정을 해준다.
 
 * 자세한 사항(순서)은 ppt참조
-
-<https://github.com/eunjin97/test/files/2976828/2019-3-28-4th-session.pdf>
+https://github.com/eunjin97/test/files/3026136/0327.pptx
 
 ---
 ***
@@ -206,5 +205,4 @@ ___
 3. 원하는 위치에 붙여넣는다.
 
 * 자세한 사항(순서)은 ppt참조
-
-<https://github.com/eunjin97/test/files/2976828/2019-3-28-4th-session.pdf>
+https://github.com/eunjin97/test/files/3026136/0327.pptx
