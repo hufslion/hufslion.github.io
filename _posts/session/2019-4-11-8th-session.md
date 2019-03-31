@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 08. 템플릿 상속 및 url 관리.
-category: session
+category: test
 ---
 정규 세션 8 - prod. 승윤
 
@@ -117,7 +117,7 @@ TEMPLATES = [
 
 * 메뉴바가 정상적으로 뜨는게 보이시죠?, 그런데 이대로 보기에는 게시판이 너무 볼품이 없기 때문에 간단하게 부트스트랩위에 css작업을 해보겠습니다.(게시글이 가운데로 이동된 것은, div class가 container 인 요소에 대한 속성이 부트스트랩 css에 있기 때문에 자동으로 입혀진 겁니다.)       
 
-* 먼저 간단하게 메뉴바 brand를 이름으로 바꾸고 간단하게 글짜 굵기, 크기, 색을 넣겠습니다, 링크도 home 페이지로 걸어두겠습니다..
+* 먼저 간단하게 메뉴바 brand를 이름으로 바꾸고 간단하게 글짜 굵기, 크기, 색을 넣겠습니다, 링크도 home 페이지로 걸어두겠습니다.
 {% highlight html %}
 <a class="navbar-brand" href="{%raw%}{%url 'home'%}{%endraw%}" style="font-weight: 600; font-size:25px; color:orange; ">SeungYun</a>
 {% endhighlight %}
@@ -126,7 +126,7 @@ TEMPLATES = [
 
 * 요소들을 카드에 옮겨주겠습니다. title 옮기고 a태그 옮기기, sub title에 pub_date날짜 옮기기, text 에 글 body 옮기기, 카드링크에 삭제하기 수정하기 옮기기.
 
-* 게시글을 중앙으로 옮기기 위해 div container로 한번 더 감싸주고, card class의 style에 있는 넓이 속성을 제거해주도록 하겠습니다. 위에 공백하나도 널어주기.
+* 게시글을 중앙으로 옮기기 위해 div container로 한번 더 감싸주고, card class의 style에 있는 넓이 속성을 제거해주도록 하겠습니다. 위에 공백하나도 어주기.
 
 * new post 버튼도 부트스트랩 button component를 가져와서 넣어보도록 하고, 글씨가 잘 안보이니 글자색을 white로 변경하겠습니다.
 
@@ -216,7 +216,7 @@ TEMPLATES = [
 
 * 먼저 blogapp 폴더에 똑같이 urls.py 파일을 생성하고, 필요한 요소들을 임포트해오도록 하겠습니다. (주의 import blogapp.views --> from . import views(현재 폴더(blogapp)에 존재하는 views 파일을 임포트하겠다는 의미)).
 
-* urlpatterns 리스트를 만들고, 그안에 필요한 blogapp 관련 url을 모두 가져 오도록 하겠습니다.
+* urlpatterns 리스트를 만들고, 그안에 필요한 blogapp 관련 url을 모두 가져 오기.
 
 * blogapp안으로 들어왔기 때문에, 앞에 불필요한 blogapp명시들은 없애도록 하겠습니다. (url pattern blog 없애기, views앞에 명시 없애기).
 
