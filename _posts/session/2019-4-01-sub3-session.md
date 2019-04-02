@@ -5,8 +5,6 @@ category: session
 ---
 예비 세션 3 - prod. 최효진
 
-python-docx(파이썬으로 word문서 만들기)
-
 # Python-docx만들기
 
 ## 0. python docx란?
