@@ -295,7 +295,7 @@ return render(request, 'wordcount/result.html', {%raw%}{'inputtext': input_text}
 <h3> 당신이 입력한 텍스트는 <!--총 단어수 --> 단어로 구성되어 있습니다. </h3>
 <br>
 <h3> 입력한 텍스트 </h3>
-{%raw%}{{ inputtext }}{%endraw%}
+{%raw%}{{ fulltext }}{%endraw%}
 <br>
 <h3> 단어 카운트 <h3>
 <!-- '단어' : '단어 나온 횟수' -->
@@ -371,7 +371,7 @@ return render(request, 'result.html',{%raw%} {'fulltext': input_text, 'total': l
 <h3> 당신이 입력한 텍스트는 {%raw%}{{total}} {%endraw%}단어로 구성되어 있습니다. </h3>
 
 <h3> 입력한 텍스트 </h3>
-{%raw%} {{ inputtext }} {%endraw%}
+{%raw%} {{ fulltext }} {%endraw%}
 <br>
 <h3> 단어 카운트 <h3>
 
