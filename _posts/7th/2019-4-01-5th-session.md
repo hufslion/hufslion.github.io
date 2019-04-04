@@ -70,7 +70,9 @@ $ source myvenv/Scripts/acitvate
 {% endhighlight%}
 
 **→ django 설치하기 **
+{% highlight bash %}
 $ pip install django
+{% endhighlight%}
 
 **→ 프로젝트 만들기**
 {% highlight bash %}
