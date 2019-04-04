@@ -69,7 +69,7 @@ $ source myvenv/Scripts/acitvate
 (myvenv)$ 
 {% endhighlight%}
 
-# django 설치하기
+**→ django 설치하기 **
 $ pip install django
 
 **→ 프로젝트 만들기**
@@ -81,7 +81,7 @@ $ django-admin startproject Firstproject
 **→ 프로젝트 내에 앱 만들기** 
 {% highlight bash %}
 #먼저 Firstproject 디렉토리로 이동해야합니다
-$ cd Firstprject 
+$ cd Firstproject 
 
 #그 후 앱을 생성합니다.
 $ python manage.py startapp wordcount
