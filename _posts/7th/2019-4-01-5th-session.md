@@ -284,9 +284,9 @@ input_text = request.GET['fulltext']
 
 위 코드는 form 태그가 보내는 "fulltext"라는 이름을 가진 값을 input_text라는 이름을 가진 변수에 넣겠다는 뜻 입니다. 
 {% highlight python %}
-return render(request, 'wordcount/result.html', {%raw%}{'inputtext': input_text}{%endraw%})
+return render(request, 'wordcount/result.html', {%raw%}{'fulltext': input_text}{%endraw%})
 {% endhighlight %}
-가장 뒤에 추가된 부분은 result.html에서 inputtext라는 이름을 통해 input_text에 들어있는 변수를 불러 오겠다는 것입니다. 
+가장 뒤에 추가된 부분은 result.html에서 fulltext라는 이름을 통해 input_text에 들어있는 변수를 불러 오겠다는 것입니다. 
 
 이제 그 결과를 result.html 페이지에 띄울 차례 입니다. 
 {% highlight html %}
