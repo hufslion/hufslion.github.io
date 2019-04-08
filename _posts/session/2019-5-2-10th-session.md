@@ -17,7 +17,7 @@ category: session
 
 ### 복습
 
-### 1. 환경설정(프로젝트, 앱, 모델, admin 계정 생성)
+#### 1) 환경설정(프로젝트, 앱, 모델, admin 계정 생성)
 
 python -m venv myvenv<br>
 . myvenv/Scripts/activate<br>
@@ -79,7 +79,7 @@ def home(request):
 {% endraw %}
 {% endhighlight %}
 
-### 2. detail page
+#### 2) detail page
 {% highlight html %}
 {% raw %}
 #views.py
@@ -105,7 +105,7 @@ import blogapp.views
 {% endraw %}
 {% endhighlight %}
   
-### 3. new, create
+#### 3) new, create
 {% highlight html %}
 {% raw %}
 #views.py
@@ -144,7 +144,7 @@ def create(request):
 {% endhighlight %}
 
 
-### 4. edit, update 
+#### 4) edit, update 
 {% highlight html %}
 {% raw %}
 #views.py
@@ -240,7 +240,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
     
 ### 실습
 
-### 1. forms.py 생성
+#### 1) forms.py 생성
   - models.py파일과 동일한 경로에 forms.py파일 생성 
   - views.py에서 import해와서 사용할 것이다.
   - 효율적인 코드관리를 위해 파일을 나눈다.
@@ -266,7 +266,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
     - fields = [] : 모델의 속성 중엥서 입력받길 원하는 속성 정의
 
 
-### 2. views.py 수정
+#### 2) views.py 수정
 
   * 서버로 데이터를 전송하는 방식
       - POST방식 : 보이지 않는 타입으로, form에서 받은 데이터들을 url에 직접 보여주지 않고 데이터들을 저장해서 서버로 보낸다.
@@ -323,7 +323,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
     - 요청이 들어오면 new.html을 띄우는데 form은 dictionary 자료형으로 넣어서 전달한다.
 
 
-### 3. urls.py 수정
+#### 3) urls.py 수정
 
   {% highlight html %}
   {% raw %}
@@ -332,7 +332,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
   {% endraw %}
   {% endhighlight %}
 
-### 4. templates 수정
+#### 4) templates 수정
 
   {% highlight html %}
   {% raw %}
@@ -361,9 +361,9 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
 * 팝업은 회원가입이나 아이디 중복검색, 우편번호 검색등을 사용할 때 주로 사용
 * popup.html에서 팝업창 호출하는 페이지(부모창), popuptest.html에서 팝업창 페이지(자식창), jquery.html은 팝업창에서 이동하는 페이지
 
-     1. 팝업 호출 글(부모창) 작성
+#### 1) 팝업 호출 글(부모창) 작성
 
-     2. input 태그 작성 
+#### 2) input 태그 작성 
 
     {% highlight html %}
     {% raw %}
@@ -376,7 +376,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
   - 클릭할 때 무언가 튀어나와야(pop up)하는 input태그 안에 onclick을 통해
   시도하고자 하는 java script의 function의 이름을 적는다.
 
-#### 3. script 작성
+#### 3) script 작성
 
 {% highlight html %}
 {% raw %}
@@ -394,7 +394,7 @@ function showPopup() { window.open("popuptest.html", "popup1", "width=400, heigh
   그 외는 크기와 위치 등을 정할 수 있다.
 
 
-#### 4. popuptest.html(팝업창)
+#### 4) popuptest.html(팝업창)
   - 이 html이 팝업창이라는 것을 보여주기 위해 popup이라고 적는다.
   - 정밀하게 팝업창의 크기를 조절하려면 바디태그에 body onload = "window.resizeTo(300,300)" 과 같이 조절 가능
 {% highlight html %}
@@ -425,7 +425,7 @@ function showPopup() { window.open("popuptest.html", "popup1", "width=400, heigh
 
   - script에 js를 만들 수도 있고 <head>에 넣어도 되고, js파일을 만들어 <head>에 링크를 연결해서 사용도 가능
 
-#### 5. result.html(이동될 페이지)
+#### 5) result.html(이동될 페이지)
   - 이동 후 닫기 버튼을 누른 뒤에 뜨는 페이지
 
 * ppt
