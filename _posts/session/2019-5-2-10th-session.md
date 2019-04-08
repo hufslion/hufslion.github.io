@@ -353,7 +353,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
   * input 태그를 통해 submit버튼을 클릭하면 작성했던 form이 views.py로 이동되어 처리된다.
   
 * ppt
-(https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
+[ppt](https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
 
 
 ## 3. JS 팝업(django 필요 없이 html만으로도 가능)
@@ -429,6 +429,6 @@ function showPopup() { window.open("popuptest.html", "popup1", "width=400, heigh
   - 이동 후 닫기 버튼을 누른 뒤에 뜨는 페이지
 
 * ppt
-(https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
+[ppt](https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
 
 
