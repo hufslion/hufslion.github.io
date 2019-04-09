@@ -231,6 +231,29 @@ path('blog/', include('blogapp.urls')),
 * 이렇게 url을 각자의 app에서 관리한다면, 프로젝트가 커져도 효율적이고 체계적으로 url을 관리하실 수 있습니다.
 
 
+## 번외 : 메뉴 active 기능 넣기.
+
+* 이번에는 base.html에 작성한 메뉴바에 active 기능을 추가하는 방법을 알려드리겠습니다. 인터넷을 사용하다보면, 현재 들어온 메뉴의 글씨가 강조되는 것을 확인할수 있는데요, 이렇게 자신이 들어온 메뉴 부분을 강조하는 방법은 굉장히 다양하지만 그 중 가장 간단한 방법을 알려드리겠습니다. 
+
+* 먼저 views.py의 home 함수에 인자를 하나 추가로 넘겨주도록 하겠습니다. 
+{% highlight html %}
+def home(request):
+    blogs = Blog.objects
+    return render(request, 'home.html', {'blogs': blogs, 'navbar':'home'})
+{% endhighlight %}
+
+* 평소에 저희는 주로 변수를 담아서 넘겨줬었는데요, 저기에서 navbar에 'home'은 단순히 navbar에 'home' 이라는 string 타입의 정보를 담아 보내준다고 생각하면 됩니다.  
+
+* 다음 base.html navbar 코드에서 기존에 nav-item으로 되어있던 li 태그 클래스를 아래와 같이 변경해주겠습니다.
+{% highlight html %}
+<li class="{%raw%}{% if navbar == 'home' %} active {% endif %} {%endraw%}" >
+    <a class="nav-link" href="{% url 'home' %}">Home</a>
+</li>
+{% endhighlight %}
+
+* class 에 있는 if문은, 만약 변수 navbar가 'home'이라면 li 리스트 태그의 클래스를 active로 지정해주라는 코드인데, 아까 views 파일에서 home 함수를 호출하면, 'home'을 담을 navbar변수가 넘어가도록 설정해 놓았기 때문에, home 화면을 띄우면 자동으로 li 리스트 태그의 클래스가 active로 지정되게 됩니다.(글로쓰면 복잡, 그냥 말로 설명). 그렇기 때문에 active class에 css style을 설정해 놓으면, home 화면에 갈때마다 css가 입혀진 home 메뉴가 나타나게 되는 원리입니다.
+
+
 # PPT참고
 
 [템플릿 상속 및 url 관리하기.pdf](https://github.com/seungyuns/newbitonproject/files/3025735/8th_Session_PPT.pdf)
