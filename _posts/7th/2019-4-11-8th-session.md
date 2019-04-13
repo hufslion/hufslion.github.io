@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 08. 템플릿 상속 및 url 관리.
+title: 8. 템플릿 상속 및 url 관리.
 category: 7th
 ---
 세션 8 - prod. 승윤
