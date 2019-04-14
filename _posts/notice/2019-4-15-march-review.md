@@ -61,4 +61,5 @@ Simple Timeline
 
 3월 세션을 통해 Django를 배울 초석을 마련했으며, 4월 1일 진행되는 첫 세션을 시작으로 Django에 대해 본격적으로 학습 할 예정입니다.
 
-prod by. 인건 / edit by. 
+prod by. 인건 / edit by. 이성준
+
