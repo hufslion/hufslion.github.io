@@ -358,8 +358,8 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
   
 
 
-* ppt
-![ppt](https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
+* form_session_ppt링크
+![10th_session_ppt](https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
 
 
 ## 3. JS 팝업(django 필요 없이 html만으로도 가능)
@@ -428,6 +428,5 @@ popup1은 이 팝업창이 어떤 것을 의미하는지 알아보기 쉽게 적
 ### 5. result.html(이동될 페이지)
 - 이동 후 닫기 버튼을 누른 뒤에 뜨는 페이지
 
-* ppt
-![ppt](https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
-
+* form_session_ppt링크
+![10th_session_ppt](https://github.com/eunjin97/test/files/3048935/2019-5-2-10th-session.pdf)
