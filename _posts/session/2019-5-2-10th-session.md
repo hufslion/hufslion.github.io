@@ -17,10 +17,10 @@ category: session
 2. 폼(form) <br>
     1) 이론<br>
     2) 실습<br>
-            (1) form.py<br>
-            (2) views.py<br>
-            (3) urls.py<br>
-            (4) templates<br>
+    &nbsp; &nbsp; &nbsp; &nbsp;(1) form.py<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;(2) views.py<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;(3) urls.py<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;(4) templates<br>
 3. JS팝업<br>
     1) parents_window.html<br>
     2) popup_window.html<br>
