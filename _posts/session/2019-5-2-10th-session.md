@@ -10,21 +10,21 @@ category: session
 
 ## Contents
 1. UD 복습
-  1) 환경설정
-  2) detail page
-  3) new, create
-  4) delete, update, edit
+    1) 환경설정(프로젝트, 앱, 모델, admin 계정 생성)
+    2) detail page
+    3) new, create
+    4) delete, update, edit
 2. 폼(form) 
-  1) 이론
-  2) 실습
-     (1) form.py
-     (2) views.py
-     (3) urls.py
-     (4) templates
+    1) 이론
+    2) 실습
+        (1) form.py
+        (2) views.py
+        (3) urls.py
+        (4) templates
 3. JS팝업
-  1) parents_window.html
-  2) popup_window.html
-  3) after.html
+    1) parents_window.html
+    2) popup_window.html
+    3) after.html
 
 
 ## 1. UD 복습
@@ -224,16 +224,15 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
 
 
 ## 2. form 
-### 1) 
+### 1) 이론
   * Form : HTML에서 웹 페이지상에서 한 개 이상의 필드나 위젯들의 묶음을 말하며, 
   사용자로부터 정보를 수집하여 서버에 제출하는데 이용된다.
 <br> 
-  * 일반 form이 아니라 model을 기반으로 한 form을 쓰는 이유:
-        - 기존에는 model에서 title, content, date 등을 정의해주고 그 속성들 그대로 html을 제작한다.
-        - model 기반/맞춤형 form을 통해 이전의 귀찮은 작업들을 쉽게 편리하게 이용/저장가능해진다.
-        - html로 하나하나씩 만들면 하나하나 유효성 검사, 성공, 실패 등 이에 맞는 form 태그를 따로 만들어줘야 하는 한계성이 있어서
-        django에서 제공해주는 form 태그를 이용해준다.
-  
+  * 일반 form이 아니라 model을 기반으로 한 form을 쓰는 이유
+          - 기존에는 model에서 title, content, date 등을 정의해주고 그 속성들 그대로 html을 제작한다.
+          - model 기반/맞춤형 form을 통해 이전의 귀찮은 작업들을 쉽게 편리하게 이용/저장가능해진다.
+          - html로 하나하나씩 만들면 하나하나 유효성 검사, 성공, 실패 등 이에 맞는 form 태그를 따로 만들어줘야 하는 한계성이 있어서 django에서 제공해주는 form 태그를 이용해준다.
+
 <br>
   * ex) form과 model form 비교:
   
@@ -257,11 +256,10 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
   {% endraw %}
   {% endhighlight %}
   <br>
-  * 방법
-      - form은 django의 가장 큰 feature 중 하나로 model 클래스와 유사하게 form class를 정의한다.
-      - forms.py 는 models.py와 유사한 방식으로 작성되며, model이 database에 적용되는 것처럼 form은 html의 <form>태그에 적용된다. 
-      - 일반적인 폼(form)은 직접 필드를 정의하거나 위젯 설정이 필요한데, 
-      모델폼(model form)은 모델과 필드를 지정하면 모델폼이 자동으로 폼필드를 생성한다.
+  * 방법<br>
+  - form은 django의 가장 큰 feature 중 하나로 model 클래스와 유사하게 form class를 정의한다.<br>
+  - forms.py 는 models.py와 유사한 방식으로 작성되며, model이 database에 적용되는 것처럼 form은 html의 <form>태그에 적용된다. <br>
+  - 일반적인 폼(form)은 직접 필드를 정의하거나 위젯 설정이 필요한데, 모델폼(model form)은 모델과 필드를 지정하면 모델폼이 자동으로 폼필드를 생성한다.<br>
 <br>
   
   * model을 기반으로 한 입력공간만들기 개요:
@@ -393,7 +391,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
   * as_table : form을 table형식으로 출력하는 form의 method(이외에도 as_p, as_ul 등이 있다.)
   * input 태그를 통해 submit버튼을 클릭하면 작성했던 form이 views.py로 이동되어 처리된다.
  <br>
-
+<br>
 * ppt자료입니다. 참고하시길 바랍니다.
 ![10th-session-ppt](https://github.com/eunjin97/test/files/3136761/10session.pdf)
 <br>
@@ -403,6 +401,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
 * 팝업은 회원가입이나 아이디 중복검색, 우편번호 검색등을 사용할 때 주로 사용
 * popup.html에서 팝업창 호출하는 페이지(부모창), popuptest.html에서 팝업창 페이지(자식창), jquery.html은 팝업창에서 이동하는 페이지
 <br>
+
 ### 1) 팝업 호출 글(부모창) parents.html 작성
 {% highlight html %}
 {% raw %}
@@ -458,20 +457,22 @@ popup1은 이 팝업창이 어떤 것을 의미하는지 알아보기 쉽게 적
 {% endraw %}
 {% endhighlight %}
 <br>
-- 이 html이 팝업창이라는 것을 보여주기 위해 popup이라고 적는다.
-- 정밀하게 팝업창의 크기를 조절하려면 
-바디태그에 body onload = "window.resizeTo(300,300)" 과 같이 조절 가능
+- 이 html이 팝업창이라는 것을 보여주기 위해 popup이라고 적는다.<br>
+- 정밀하게 팝업창의 크기를 조절하려면 바디태그에 body onload = "window.resizeTo(300,300)" 과 같이 조절 가능<br>
 <br>
-- 닫기 버튼 : input 태그에 onclick= "self.close();"를 통해 self 자기자신 창을 닫는 메소드를 추가
-- 이동 후 닫기 버튼 : input 태그에 onclick 속성을 넣어 이동 후 닫히는 onclick="moveClose();를 통해 이동 후 닫히는 메소드 추가
-- self.close()는 이미 정의된 java script(js) 메소드고 moveClose는 우리가 만들 것이기 때문에 밑에 script를 열어 새로 정의를 한다.
 <br>
-- opener.location.href : 원하는 해당 url로 가기 위해 사용하는 방법으로 opener는 부모창과 자식창을 가진다. 
-- location : 브라우저의 창의 열려있는 문서의 url을 알려주는 객체로 opener 없이는 부모페이지가 액션을 받지 못한다.
-- 부모창 : 처음 버튼을 클릭하는 페이지로 자식창의 정보를 가지고 있다.
-- 자식창 : 팝업창(눌러서 새로 생성되는 페이지)으로 부모창의 정보를 가지고 있다.
+- 닫기 버튼 : input 태그에 onclick= "self.close();"를 통해 self 자기자신 창을 닫는 메소드를 추가<br>
+- 이동 후 닫기 버튼 : input 태그에 onclick 속성을 넣어 이동 후 닫히는 onclick="moveClose();를 통해 이동 후 닫히는 메소드 추가<br>
+- self.close()는 이미 정의된 java script(js) 메소드고 moveClose는 우리가 만들 것이기 때문에 밑에 script를 열어 새로 정의를 한다.<br>
 <br>
-- script에 js를 만들 수도 있고 <head>에 넣어도 되고, js파일을 만들어 <head>에 링크를 연결해서 사용도 가능
+<br>
+- opener.location.href : 원하는 해당 url로 가기 위해 사용하는 방법으로 opener는 부모창과 자식창을 가진다. <br>
+- location : 브라우저의 창의 열려있는 문서의 url을 알려주는 객체로 opener 없이는 부모페이지가 액션을 받지 못한다.<br>
+- 부모창 : 처음 버튼을 클릭하는 페이지로 자식창의 정보를 가지고 있다.<br>
+- 자식창 : 팝업창(눌러서 새로 생성되는 페이지)으로 부모창의 정보를 가지고 있다.<br>
+<br>
+<br>
+- script에 js를 만들 수도 있고 <head>에 넣어도 되고, js파일을 만들어 <head>에 링크를 연결해서 사용도 가능<br>
 
 ### 3) after.html(이동될 페이지)
 - 이동 후 닫기 버튼을 누른 뒤에 뜨는 페이지
