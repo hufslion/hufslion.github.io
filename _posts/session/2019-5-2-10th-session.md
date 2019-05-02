@@ -17,10 +17,10 @@ category: session
 2. 폼(form) <br>
     1) 이론<br>
     2) 실습<br>
-        (1) form.py<br>
-        (2) views.py<br>
-        (3) urls.py<br>
-        (4) templates<br>
+            (1) form.py<br>
+            (2) views.py<br>
+            (3) urls.py<br>
+            (4) templates<br>
 3. JS팝업<br>
     1) parents_window.html<br>
     2) popup_window.html<br>
@@ -96,6 +96,7 @@ import blogapp.views
 <br>
 #### python manage.py runserver로 확인하기
 <br>
+
 ### 2) detail page
 {% highlight html %}
 {% raw %}
@@ -159,8 +160,8 @@ def create(request):
 
 {% endraw %}
 {% endhighlight %}
-
 <br>
+
 ### 4) edit, update 
 {% highlight html %}
 {% raw %}
@@ -228,11 +229,11 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
   * Form : HTML에서 웹 페이지상에서 한 개 이상의 필드나 위젯들의 묶음을 말하며, 
   사용자로부터 정보를 수집하여 서버에 제출하는데 이용된다.
 <br> 
-  * 일반 form이 아니라 model을 기반으로 한 form을 쓰는 이유
-          - 기존에는 model에서 title, content, date 등을 정의해주고 그 속성들 그대로 html을 제작한다.
-          - model 기반/맞춤형 form을 통해 이전의 귀찮은 작업들을 쉽게 편리하게 이용/저장가능해진다.
-          - html로 하나하나씩 만들면 하나하나 유효성 검사, 성공, 실패 등 이에 맞는 form 태그를 따로 만들어줘야 하는 한계성이 있어서 django에서 제공해주는 form 태그를 이용해준다.
-
+  * 일반 form이 아니라 model을 기반으로 한 form을 쓰는 이유<br> 
+            - 기존에는 model에서 title, content, date 등을 정의해주고 그 속성들 그대로 html을 제작한다.<br> 
+            - model 기반/맞춤형 form을 통해 이전의 귀찮은 작업들을 쉽게 편리하게 이용/저장가능해진다.<br> 
+            - html로 하나하나씩 만들면 하나하나 유효성 검사, 성공, 실패 등 이에 맞는 form 태그를 따로 만들어줘야 하는 한계성이 있어서 django에서 제공해주는 form 태그를 이용해준다.
+<br> 
 <br>
   * ex) form과 model form 비교:
   
