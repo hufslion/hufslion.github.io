@@ -273,7 +273,8 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
                 fields = 그 모델 중에서 어떤 항목을 입력받을거니?
  {% endraw %}
  {% endhighlight %}
-    <br>
+<br>
+    
 ### 2)실습
 
 ### (1) forms.py 생성
@@ -293,7 +294,8 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
                 fields = ['title','body']
     {% endraw %}
     {% endhighlight %}
-    <br>
+    
+<br>
   * forms.py를 models.py 입력하던 것처럼 
     - 메타클래스를 선언하고 model, fields를 정의해준다.
     - class Meta: : 클래스를 만드는데 사용되는 것으로, 메타클래스의 인스턴스가 클래스라는 것이다.
@@ -302,11 +304,11 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
 <br>
 
 ### (2) views.py
-
   * 서버로 데이터를 전송하는 방식
     - POST방식 : 보이지 않는 타입으로, form에서 받은 데이터들을 url에 직접 보여주지 않고 데이터들을 저장해서 서버로 보낸다.
     - GET방식 : url에 데이터가 그대로 보이는 타입으로, 우리가 만든 form을 보여주면 된다.
 <br>
+
 * 개요
 {% highlight html %}
 {% raw %}
@@ -319,6 +321,7 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
 {% endhighlight %}
 <br>
 <br>
+
 * 코드
   {% highlight html %}
   {% raw %}
@@ -360,10 +363,8 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
 
   {% highlight html %}
   {% raw %}
-
   #blog/newblog로 접속하면 views.py의 blogpost라는 함수가 실행되도록 path 설정
   path('blog/newblog/', blogapp.views.blogpost, name='newblog')
-
   {% endraw %}
   {% endhighlight %}
 <br>
@@ -420,7 +421,6 @@ path('blog/edit/<int:blog_id>/', blogapp.views.edit, name='edit'),
                           
     </body>
 </html>
-
 
   {% endraw %}
   {% endhighlight %}
