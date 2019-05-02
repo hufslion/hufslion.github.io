@@ -9,22 +9,22 @@ category: session
 # 10th session 
 
 ## Contents
-1. UD 복습
-    1) 환경설정(프로젝트, 앱, 모델, admin 계정 생성)
-    2) detail page
-    3) new, create
-    4) delete, update, edit
-2. 폼(form) 
-    1) 이론
-    2) 실습
-        (1) form.py
-        (2) views.py
-        (3) urls.py
-        (4) templates
-3. JS팝업
-    1) parents_window.html
-    2) popup_window.html
-    3) after.html
+1. UD 복습<br>
+    1) 환경설정(프로젝트, 앱, 모델, admin 계정 생성)<br>
+    2) detail page<br>
+    3) new, create<br>
+    4) delete, update, edit<br>
+2. 폼(form) <br>
+    1) 이론<br>
+    2) 실습<br>
+        (1) form.py<br>
+        (2) views.py<br>
+        (3) urls.py<br>
+        (4) templates<br>
+3. JS팝업<br>
+    1) parents_window.html<br>
+    2) popup_window.html<br>
+    3) after.html<br>
 
 
 ## 1. UD 복습
