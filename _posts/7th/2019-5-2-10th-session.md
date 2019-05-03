@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 10. UD복습, form, JS팝업
-category: session
+category: 7th
 ---
 세션 10 - prod. 김은진
 
