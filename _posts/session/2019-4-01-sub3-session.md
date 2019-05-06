@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python-docx(파이썬으로 word문서 만들기)
+title: 예비 세션 3. Python-docx
 category: session
 ---
 예비 세션 3 - prod. 최효진
