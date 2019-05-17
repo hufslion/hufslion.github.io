@@ -34,7 +34,6 @@ pip install pyknon
 * 추가적으로 만든 Mid 파일을 재생할 사이트.
 <https://onlinesequencer.net/>
 
-
 ## 패키지 기본 활용.
 
 * 간단한 음악 노트를 만들어복소 wav 파일로 저장하여 재생해 보자.
