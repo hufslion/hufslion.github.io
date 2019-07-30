@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vacation session 2. Python HTML Calendar를 이용한 Simple Scheduler
+title: vacation session 2. Simple Scheduler
 category: 7th
 ---
 
