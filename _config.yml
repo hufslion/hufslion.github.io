@@ -75,7 +75,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-# gems:
+gems:
 #   - jekyll
 #   - bundler
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
