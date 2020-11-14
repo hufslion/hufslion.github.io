@@ -2,6 +2,7 @@
 layout: post
 title: vacation session 2. Simple Scheduler
 category: 7th
+permalink: :categories/:title
 ---
 
 Vacation Session 2 - prod. 이태훈

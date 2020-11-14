@@ -2,6 +2,7 @@
 layout: post
 title: 09. CR 복습/Static, Media/Thubmnail
 category: 7th
+permalink: :categories/:title
 ---
 세션 9 - prod. 이태훈  
 

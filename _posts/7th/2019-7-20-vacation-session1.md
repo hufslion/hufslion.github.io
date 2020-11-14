@@ -2,6 +2,7 @@
 layout: post
 title: 방학세션 1. AWS배포하기
 category: 7th
+permalink: :categories/:title
 ---
 
 방학세션1 - prod. 최효진

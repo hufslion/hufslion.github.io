@@ -2,6 +2,7 @@
 layout: post      # 수정 NO 
 title: 7. 게시판만들기(UD) # 글 제목으로 수정
 category: 7th # 본인에게 맞는 카테고리명을 적으세요
+permalink: :categories/:title
 ---
 
 세션 7 - prod. 장윤서 

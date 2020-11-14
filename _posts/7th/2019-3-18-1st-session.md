@@ -2,6 +2,7 @@
 layout: post
 title: 1. 웹개론과 html
 category: 7th
+permalink: :categories/:title
 ---
 세션 1 - prod. 이슬
 
