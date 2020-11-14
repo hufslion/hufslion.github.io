@@ -5,6 +5,8 @@ category: 4th
 permalink: :categories/:title
 ---
 
+활동 - prod. HUFSLION  
+
 
 ### Likelion Campus 방문 및 학교 멋사 회의  
 

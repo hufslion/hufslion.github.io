@@ -5,6 +5,7 @@ category: 4th
 permalink: :categories/:title
 ---
 
+활동 - prod. HUFSLION  
 
 ### 중앙 해커톤
 
