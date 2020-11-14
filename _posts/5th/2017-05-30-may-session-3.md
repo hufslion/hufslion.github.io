@@ -5,8 +5,6 @@ category: 5th
 permalink: :categories/:title
 ---
 
-세션 13,14,15 - prod. LIKELION  
-
 
 ### 5월 23일 session
 
@@ -22,3 +20,7 @@ permalink: :categories/:title
 장소 : 한국외대 공학관 
 
 ![20170530_185815](https://user-images.githubusercontent.com/30469948/99148479-3ab3a380-26cb-11eb-8fae-ea34cd6027c9.jpg)  
+
+
+
+세션 13,14,15 - prod. HUFSLION  

@@ -5,9 +5,6 @@ category: 5th
 permalink: :categories/:title
 ---
 
-세션 5,6 - prod. LIKELION  
-
-
 ### 4월 6일 session
 
 장소 : 한국외대 공학관  
@@ -25,4 +22,9 @@ permalink: :categories/:title
 장소 : 한국외대 공학관  
 
 ![1494493750015](https://user-images.githubusercontent.com/30469948/99147928-0b4f6780-26c8-11eb-858f-2623a99a808a.jpg)  
-![1494493743078](https://user-images.githubusercontent.com/30469948/99147929-0c809480-26c8-11eb-8a16-94fdc7e5535c.jpg)  
+![1494493743078](https://user-images.githubusercontent.com/30469948/99147929-0c809480-26c8-11eb-8a16-94fdc7e5535c.jpg)
+
+
+
+세션 5,6 - prod. HUFSLION  
+

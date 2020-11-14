@@ -5,7 +5,6 @@ category: 5th
 permalink: :categories/:title
 ---
 
-세션 3,4 - prod. LIKELION  
 
 ### 3월 28일 세션
 
@@ -20,3 +19,5 @@ permalink: :categories/:title
 
 ![20170330_195328](https://user-images.githubusercontent.com/30469948/99147819-41401c00-26c7-11eb-9865-277b892e02e1.jpg)  
 ![20170330_195314](https://user-images.githubusercontent.com/30469948/99147822-44d3a300-26c7-11eb-9cf3-f053f0060e13.jpg)  
+
+세션 3,4 - prod. HUFSLION  

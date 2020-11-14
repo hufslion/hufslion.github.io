@@ -5,8 +5,6 @@ category: 5th
 permalink: :categories/:title
 ---
 
-mini ideathon - prod. LIKELION  
-
 
 ### 4월 1일 미니 아이디어톤 - 1
 
@@ -20,4 +18,7 @@ mini ideathon - prod. LIKELION
 
 장소 : 한국외대 공학관  
 ![1494486130625](https://user-images.githubusercontent.com/30469948/99148100-2ff80f00-26c9-11eb-896d-ad2a559e578f.jpg)  
-![1494486124384](https://user-images.githubusercontent.com/30469948/99148102-34242c80-26c9-11eb-8b1d-01646aa1d11f.jpg)  
+![1494486124384](https://user-images.githubusercontent.com/30469948/99148102-34242c80-26c9-11eb-8b1d-01646aa1d11f.jpg)   
+
+
+mini ideathon - prod. HUFSLION  

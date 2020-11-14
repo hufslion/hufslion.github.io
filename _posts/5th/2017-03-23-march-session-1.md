@@ -5,7 +5,6 @@ category: 5th
 permalink: :categories/:title
 ---
 
-세션 1,2 - prod. LIKELION  
 
 ### 3월 21일 session
 
@@ -22,3 +21,5 @@ permalink: :categories/:title
 ![KakaoTalk_20170325_152414345](https://user-images.githubusercontent.com/30469948/99147628-d3472500-26c5-11eb-9087-8dd855d8ffdb.jpg)  
 ![KakaoTalk_20170325_210924664](https://user-images.githubusercontent.com/30469948/99147629-d3472500-26c5-11eb-9847-7f00c09cc06e.jpg)  
 ![KakaoTalk_20170325_152413527](https://user-images.githubusercontent.com/30469948/99147630-d3dfbb80-26c5-11eb-9b02-dfd1138fa1b1.jpg)  
+
+세션 1,2 - prod. HUFSLION  
