@@ -5,7 +5,7 @@ layout: default
   {% for post in site.categories.member %}
     <article class="post">
       <br>
-      <h1 style="display: inline;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1 style="display: inline;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1><br><p style="display: inline; ">{{ post.date | date: "%Y년 %m월 %e일 " }}</p>
 
 
     </article>
