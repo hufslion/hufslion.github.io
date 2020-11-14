@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 멋쟁이 사자처럼 7기 OT
-category: notice
+category: 7th
 permalink: :categories/:title
 ---
 
