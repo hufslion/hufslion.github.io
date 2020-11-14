@@ -5,8 +5,6 @@ category: 6th
 permalink: :categories/:title
 ---
 
-9월 세션 - prod. HUFSION
-
 
 ### 9월 3일
 
@@ -36,3 +34,6 @@ permalink: :categories/:title
 
 ![20180927_192450](https://user-images.githubusercontent.com/30469948/99150059-52902500-26d5-11eb-9b72-5ef42a0a3600.jpg)
 ![20180927_192359](https://user-images.githubusercontent.com/30469948/99150061-53c15200-26d5-11eb-89fd-79b8723dcc03.jpg)
+
+
+9월 세션 - prod. HUFSION

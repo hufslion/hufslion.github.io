@@ -5,8 +5,6 @@ category: 6th
 permalink: :categories/:title
 ---
 
-3월 세션 - prod. HUFSION
-
 ### 3월 19일 
 
 장소 : 한국외대 공학관
@@ -30,3 +28,5 @@ permalink: :categories/:title
 장소 : 한국외대 공학관
 
 ![IMG_3011](https://user-images.githubusercontent.com/30469948/99149241-202ff900-26d0-11eb-9ab7-9e1036185514.JPG)
+
+3월 세션 - prod. HUFSION

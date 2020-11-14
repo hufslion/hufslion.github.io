@@ -5,9 +5,6 @@ category: 7th
 permalink: :categories/:title
 ---
 
-4월 세션 - prod. HUFSLION
-
-
 # 4월 세션
 
 4월 세션 이후, 중간고사에 대비하여 약 2주간 쉬는 시간을 가졌습니다.  
@@ -39,3 +36,7 @@ permalink: :categories/:title
 ![IMG_4/29](https://user-images.githubusercontent.com/37537330/59119235-31c68a80-898d-11e9-9bf8-8169c8e90e05.JPG)
 
 4월 29일 세션에서는 CR을 복습하고, Django에서 스태틱 / 미디어 파일을 다루는 방법을 배웠습니다.
+
+
+4월 세션 - prod. HUFSLION
+

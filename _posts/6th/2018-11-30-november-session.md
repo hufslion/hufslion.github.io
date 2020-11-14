@@ -5,8 +5,6 @@ category: 6th
 permalink: :categories/:title
 ---
 
-11월 세션 - prod. HUFSION
-
 ## 11월 1일
 
 ![IMG_5600](https://user-images.githubusercontent.com/30469948/99150258-8cadf680-26d6-11eb-8d19-df2fb7a54565.JPG)  
@@ -24,5 +22,7 @@ permalink: :categories/:title
 ![IMG_6074](https://user-images.githubusercontent.com/30469948/99150262-92a3d780-26d6-11eb-9fb3-6b5fb74160eb.JPG)
 ![IMG_6070](https://user-images.githubusercontent.com/30469948/99150263-93d50480-26d6-11eb-9179-1fc783aecfa3.JPG)
 
+
+11월 세션 - prod. HUFSION
 
 

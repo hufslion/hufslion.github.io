@@ -5,8 +5,6 @@ category: 6th
 permalink: :categories/:title
 ---
 
-8월 세션 - prod. HUFSION
-
 ### 8월 4일 회식
 
 ### 8월 11일
@@ -19,3 +17,5 @@ permalink: :categories/:title
 
 ### 8월 18일
 
+
+8월 세션 - prod. HUFSION

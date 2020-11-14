@@ -5,8 +5,6 @@ category: 6th
 permalink: :categories/:title
 ---
 
-5월 세션 - prod. HUFSION
-
 ### 5월 3일
 
 장소 : 한국외대 공학관
@@ -40,3 +38,5 @@ permalink: :categories/:title
 장소 : 한국외대 공학관
 
 ![20180531_184903](https://user-images.githubusercontent.com/30469948/99149707-0f34b700-26d3-11eb-8f31-e0d3d8d32af2.jpg)
+
+5월 세션 - prod. HUFSION

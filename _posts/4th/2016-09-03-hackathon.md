@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 4. Hackathon
+title: 3. Hackathon
 category: 4th
 permalink: :categories/:title
 ---

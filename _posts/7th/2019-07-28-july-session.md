@@ -5,7 +5,6 @@ category: 7th
 permalink: :categories/:title
 ---
 
-7월 세션 - prod. HUFSLION
 
 
 ### 7월 21일
@@ -19,3 +18,5 @@ permalink: :categories/:title
 ![IMG_7.28](https://user-images.githubusercontent.com/37537330/64066172-a1c57380-cc51-11e9-9144-56456e435fe5.png)
 ![IMG_7.28_2](https://user-images.githubusercontent.com/37537330/64066174-a5f19100-cc51-11e9-9943-e6a889717282.png)
 7월 28일 세션에서는 AWS의 Elasticbeanstalk을 이용해서 배포하는 세션을 진행하였습니다.
+
+7월 세션 - prod. HUFSLION
