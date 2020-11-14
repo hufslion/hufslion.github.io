@@ -7,7 +7,7 @@ layout: default
 <br>
   {% for post in site.categories.8th %}
     <article class="post">
-    
+    <br>
 
 <!-- change to display: inline two tag      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{{ post.date | date: "%B %e, %Y" }}</h1> -->
       <h1 style="display: inline;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1><p style="display: inline;"> - {{ post.date | date: "%B %e, %Y" }}</p>
