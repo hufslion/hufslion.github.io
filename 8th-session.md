@@ -4,6 +4,7 @@ layout: default
 <!-- 첫 화면에서 보이는 게시글들의 미리보기 내용을 커스텀하는 공간이다. -->
 <div class="posts">
 <p style="display: inline;"> 8기 세션은 운영진의 Github 과 notion을 활용하여 세션 진행</p>
+<br>
   {% for post in site.categories.8th-session %}
     <article class="post">
     
