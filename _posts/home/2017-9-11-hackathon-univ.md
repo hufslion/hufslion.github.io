@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 우수 학교 선정
-category: notice
-permalink: :categories/:title
+category: home
+permalink: :title
 ---
 
 우수 학교 선정

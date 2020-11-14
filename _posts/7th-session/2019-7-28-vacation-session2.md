@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vacation session 2. Simple Scheduler
-category: 7th
+category: 7th-session
 permalink: :categories/:title
 ---
 

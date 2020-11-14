@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: 2. CSS 기초
-category: 7th
+category: 7th-session
 permalink: :categories/:title
 ---
 

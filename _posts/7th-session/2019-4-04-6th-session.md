@@ -1,7 +1,7 @@
 ---
 layout: post      # 수정 NO 
 title: 6. 게시판만들기(CR), admin페이지 활용하기 # 글 제목으로 수정
-category: 7th # 본인에게 맞는 카테고리명을 적으세요
+category: 7th-session # 본인에게 맞는 카테고리명을 적으세요
 permalink: :categories/:title
 ---
 

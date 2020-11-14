@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 7기 모집 세부사항
-category: notice
+category: board
 permalink: :categories/:title
 ---
 

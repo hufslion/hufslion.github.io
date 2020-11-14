@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5. HTTP Methods / Wordcounter / Parsing
-category: 7th
+category: 7th-session
 permalink: :categories/:title
 ---
 세션 5 - prod. 인건
