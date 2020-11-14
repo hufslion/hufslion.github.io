@@ -2,6 +2,7 @@
 layout: post
 title: 3월 세션 후기
 category: notice
+permalink: :categories/:title
 ---
 3월에 진행되었던 세션들에 대한 정리입니다. 
 

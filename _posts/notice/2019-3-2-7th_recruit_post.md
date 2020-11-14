@@ -2,6 +2,7 @@
 layout: post
 title: 7기 모집 - 후기
 category: notice
+permalink: :categories/:title
 ---
 
 한국외국어대학교 글로벌캠퍼스 멋쟁이사자처럼 7기 모집 - 후기  

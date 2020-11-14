@@ -2,6 +2,7 @@
 layout: post
 title: 방학 세션 후기
 category: notice
+permalink: :categories/:title
 ---
 여름 방학에 진행되었던 세션들에 대한 정리입니다.  
 

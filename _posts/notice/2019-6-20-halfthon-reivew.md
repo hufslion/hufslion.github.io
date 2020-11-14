@@ -2,6 +2,7 @@
 layout: post
 title: 하프톤(학교 연합 미니 해커톤) 후기
 category: notice
+permalink: :categories/:title
 ---
 
 6월 1일 진행된 하프톤(학교 연합 미니해커톤) 참가 후기 입니다.

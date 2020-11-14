@@ -2,6 +2,7 @@
 layout: post
 title: 7기 모집 - 후기 전문
 category: notice
+permalink: :categories/:title
 ---
 
 

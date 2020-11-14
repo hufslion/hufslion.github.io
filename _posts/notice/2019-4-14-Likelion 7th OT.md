@@ -2,6 +2,7 @@
 layout: post
 title: 멋쟁이 사자처럼 7기 OT
 category: notice
+permalink: :categories/:title
 ---
 
  Likelion 7th OT

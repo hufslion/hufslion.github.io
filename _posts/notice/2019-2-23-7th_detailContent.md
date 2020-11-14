@@ -2,6 +2,7 @@
 layout: post
 title: 7기 모집 세부사항
 category: notice
+permalink: :categories/:title
 ---
 
 한국외국어대학교 글로벌캠퍼스 멋쟁이사자처럼 지원에 대한 세부 사항입니다.  
