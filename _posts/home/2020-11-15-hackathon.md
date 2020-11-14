@@ -5,6 +5,7 @@ category: home
 permalink: :title
 ---
 
+기수별 해커톤 페이지 링크
 
 ## 4기
 
