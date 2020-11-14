@@ -40,3 +40,10 @@ HTML 세션 1
 
 ![20200430_192224](https://user-images.githubusercontent.com/30469948/99152041-c5ec6380-26e2-11eb-872a-d539e6d8ac95.jpg)  
 ![20200430_193703](https://user-images.githubusercontent.com/30469948/99152042-c71d9080-26e2-11eb-94bc-95901d4014dc.jpg)  
+
+
+### 자료실 
+
+8기에서 진행한 세션의 자료실로 이동합니다. 
+
+<a href="{{ site.baseurl }}/8th-session">8기 세션 자료실</a>

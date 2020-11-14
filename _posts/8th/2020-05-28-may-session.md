@@ -33,3 +33,10 @@ Python 세션 1
 
 ![20200528_193852](https://user-images.githubusercontent.com/30469948/99152187-95f19000-26e3-11eb-9e81-6f20f97d53fc.jpg)
 
+
+
+### 자료실 
+
+8기에서 진행한 세션의 자료실로 이동합니다. 
+
+<a href="{{ site.baseurl }}/8th-session">8기 세션 자료실</a>

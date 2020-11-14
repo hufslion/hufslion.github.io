@@ -29,3 +29,10 @@ Django 세션 8
 
 ### 8월 27일
 Django 세션 9
+
+
+### 자료실 
+
+8기에서 진행한 세션의 자료실로 이동합니다. 
+
+<a href="{{ site.baseurl }}/8th-session">8기 세션 자료실</a>

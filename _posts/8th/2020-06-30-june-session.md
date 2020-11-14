@@ -25,3 +25,10 @@ UX/UI 세션 3
 Python 세션 3  
 
 ![20200611_212037](https://user-images.githubusercontent.com/30469948/99152309-668f5300-26e4-11eb-9228-161662a94da7.jpg)
+
+
+### 자료실 
+
+8기에서 진행한 세션의 자료실로 이동합니다. 
+
+<a href="{{ site.baseurl }}/8th-session">8기 세션 자료실</a>
