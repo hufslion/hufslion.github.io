@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 하프톤(학교 연합 미니 해커톤) 후기
+title: 5. 하프톤(학교 연합 미니 해커톤) 후기
 category: 7th
 permalink: :categories/:title
 ---
