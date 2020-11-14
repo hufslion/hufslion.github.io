@@ -4,7 +4,6 @@ title: 4. 5월 세션 후기
 category: 7th
 permalink: :categories/:title
 ---
-5월 세션 - prod. HUFSLION
 
 한국외국어대학교 글로벌 캠퍼스 멋쟁이 사자처럼 7기가 시작한 후 중간고사 이후에 대한 활동내역을 공유합니다.  
 

@@ -16,4 +16,4 @@ permalink: :categories/:title
 ![KakaoTalk_20170325_213130136](https://user-images.githubusercontent.com/30469948/99147726-8c0d6400-26c6-11eb-8381-b498240a2e39.jpg)   
   
 
-미니 해커톤 - prod. LIKELION  
+미니 해커톤 - prod. HUFSLION  
