@@ -6,6 +6,6 @@ permalink: :title
 ---
 Likelion 9th Recruit!
 
-### 8기 모집 포스터
+### 9기 모집 포스터
 
 ![9th](https://user-images.githubusercontent.com/30469948/100711463-a77dac00-33f4-11eb-8ef7-2642f21c6273.png)
